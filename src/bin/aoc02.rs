@@ -39,4 +39,9 @@ fn is_safe(report: &Vec<i32>) -> bool {
     };
 
     true
+    // report
+    //     .iter()
+    //     .zip(report.iter().skip(1))
+    //     .map(|(left, right)| (1..=3).contains(&(left - right).abs()))
+    //     .any(|b| b)
 }
