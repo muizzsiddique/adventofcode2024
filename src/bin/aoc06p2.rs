@@ -99,4 +99,5 @@ fn main() {
 
     map.rows_iter()
         .for_each(|r| println!("{:?}", r.collect::<Vec<_>>()));
+    println!("NOT SOLVED!");
 }

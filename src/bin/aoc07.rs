@@ -25,4 +25,5 @@ fn main() {
     for line in input.lines() {
         println!("{line}");
     }
+    println!("NOT SOLVED!");
 }
